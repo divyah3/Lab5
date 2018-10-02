@@ -29,6 +29,11 @@ public class Bank {
         /*
          * Implement this function
          */
+        if (bankAccount.ß - amount >= 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
